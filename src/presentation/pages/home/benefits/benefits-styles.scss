@@ -1,0 +1,49 @@
+@import '@/presentation/styles/main.scss';
+
+
+.benefits {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 360px;
+  height: 90vh;
+  background-color: $white;
+
+  .waveBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .title {
+    width: 59.2rem;
+
+    h6 {
+      font-weight: 300;
+    }
+  }
+
+  span {
+    font-weight: 300;
+  }
+
+  .image {
+    animation: floating 3s both infinite ease-in-out alternate;
+  }
+
+  @keyframes floating {
+    0% {
+      transform: translateY(0px);
+    }
+
+    0% {
+      transform: translateY(20px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+}
