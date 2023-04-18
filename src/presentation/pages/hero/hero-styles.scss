@@ -5,3 +5,13 @@
   display: flex;
   padding: 150px 0px;
 }
+
+h1 {
+  color: $primary
+}
+
+@include responsive(tablet-land) {
+  h1 {
+    color: black
+  }
+}

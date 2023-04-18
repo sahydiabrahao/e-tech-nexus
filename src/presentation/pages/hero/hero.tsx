@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
   return (
     <>
       <div className={Styles.hero}>
-        <h1>oi</h1>
+        <h1>oe</h1>
       </div>
     </>
   )
