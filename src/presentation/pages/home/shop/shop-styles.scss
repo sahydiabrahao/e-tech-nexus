@@ -1,0 +1,51 @@
+@import '@/presentation/styles/main.scss';
+
+
+.services {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 360px;
+  width: 100vw;
+  height: 90vh;
+  background-color: $white;
+
+  .waveTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 3.2rem;
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+
+    .card {
+      width: 300px;
+      height: 288px;
+
+      .cardTitle {
+        h6 {
+          font-weight: 300;
+          text-align: justify;
+
+        }
+      }
+    }
+  }
+
+}
