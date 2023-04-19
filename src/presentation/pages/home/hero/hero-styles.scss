@@ -1,6 +1,5 @@
 @import '@/presentation/styles/main.scss';
 
-
 .hero {
   position: relative;
   display: flex;
@@ -9,6 +8,7 @@
   padding: 0px 360px;
   height: 90vh;
   background-color: $white;
+  color: $black;
 
   .waveBottom {
     position: absolute;
@@ -16,14 +16,7 @@
     left: 0;
   }
 
-  .title {
-    width: 59.2rem;
-
-    h6 {
-      font-weight: 300;
-    }
-  }
-
+  h5,
   span {
     font-weight: 300;
   }

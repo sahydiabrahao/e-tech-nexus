@@ -13,9 +13,9 @@ const Shop: React.FC = () => {
           <path d="M1920 106.667L1813.33 97.7778C1706.67 88.8889 1493.33 71.1111 1280 77.0556C1066.67 82.7778 853.333 112.778 640 103.722C426.667 95 213.333 47.2222 106.667 23.7222L0 0V160H106.667C213.333 160 426.667 160 640 160C853.333 160 1066.67 160 1280 160C1493.33 160 1706.67 160 1813.33 160H1920V106.667Z" fill="#7FF2E5"/>
         </svg>
 
-        <div className={Styles.title}>
+        <div>
           <h1>
-          Tech Solutions Simplified<br></br><span> Nexus Services</span>
+          Shop with<span> E-Tech Nexus!</span>
           </h1>
         </div>
 
@@ -23,9 +23,9 @@ const Shop: React.FC = () => {
 
           <div className={Styles.card}>
             <img className={Styles.image} src={proGamingLaptopImage} />
-            <div className={Styles.cardTitle}>
-              <h5>Pro Gaming Laptop</h5>
-              <p>Unleash your productivity with the sleek and powerful LuminaTech UltraBook.</p>
+            <div>
+              <h3>Pro Gaming Laptop</h3>
+              <h6>Unleash your productivity with the sleek and powerful LuminaTech UltraBook.</h6>
             </div>
             <div className={Styles.cardMenu}>
               <FaCartPlus className={Styles.cardIcon} />
@@ -36,9 +36,9 @@ const Shop: React.FC = () => {
 
           <div className={Styles.card}>
             <img className={Styles.image} src={mouseProGamerXImage} />
-            <div className={Styles.cardTitle}>
-              <h5>Pro Gaming Laptop</h5>
-              <p>Unleash your productivity with the sleek and powerful LuminaTech UltraBook.</p>
+            <div>
+              <h3>Pro Gaming Laptop</h3>
+              <h6>Unleash your productivity with the sleek and powerful LuminaTech UltraBook.</h6>
             </div>
             <div className={Styles.cardMenu}>
               <FaCartPlus className={Styles.cardIcon} />
@@ -49,9 +49,9 @@ const Shop: React.FC = () => {
 
           <div className={Styles.card}>
             <img className={Styles.image} src={silentSenseKeyboardImage} />
-            <div className={Styles.cardTitle}>
-              <h5>Pro Gaming Laptop</h5>
-              <p>Unleash your productivity with the sleek and powerful LuminaTech UltraBook.</p>
+            <div>
+              <h3>Pro Gaming Laptop</h3>
+              <h6>Unleash your productivity with the sleek and powerful LuminaTech UltraBook.</h6>
             </div>
             <div className={Styles.cardMenu}>
               <FaCartPlus className={Styles.cardIcon} />

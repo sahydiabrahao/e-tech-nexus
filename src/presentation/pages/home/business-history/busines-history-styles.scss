@@ -9,16 +9,11 @@
   padding: 0px 360px;
   height: 70vh;
   background-color: $black;
+  color: $white;
+  gap: 32px;
 
-  .title {
-    width: 100%;
-    margin-left: 32px;
-    color: $white;
-
-    h6 {
-      margin-top: 8px;
-      font-weight: 300;
-    }
+  h5 {
+    margin-top: 8px;
+    font-weight: 300;
   }
-
 }

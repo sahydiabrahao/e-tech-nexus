@@ -9,46 +9,44 @@
   justify-content: center;
   padding: 60px 360px;
   background-color: $white;
-  text-align: center;
+  color: $black;
+
+  .title {
+    text-align: center;
+  }
 
   span {
     font-weight: 600;
     color: $primary;
   }
 
-  .benefitsRow {
+  .benefitsSection {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 32px;
   }
 
-  .title {
-    text-align: left;
-    margin-left: 32px;
+  h5 {
+    font-weight: 300;
+  }
+}
 
-    h6 {
-      font-weight: 300;
-    }
+.image {
+  animation: floating 3s both infinite ease-in-out alternate;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
   }
 
-
-  .image {
-    animation: floating 3s both infinite ease-in-out alternate;
+  0% {
+    transform: translateY(20px);
   }
 
-  @keyframes floating {
-    0% {
-      transform: translateY(0px);
-    }
-
-    0% {
-      transform: translateY(20px);
-    }
-
-    100% {
-      transform: translateY(0px);
-    }
+  100% {
+    transform: translateY(0px);
   }
-
 }

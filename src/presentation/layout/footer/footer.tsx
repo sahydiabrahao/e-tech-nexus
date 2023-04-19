@@ -12,32 +12,32 @@ const Footer: React.FC = () => {
         </svg>
 
         <div className={Styles.footerColumn}>
-          <h6>About</h6>
-          <p>Our goal is to provide the latest and greatest technology at competitive prices.</p>
+          <h5>About</h5>
+          <h6>Our goal is to provide the latest and greatest technology at competitive prices.</h6>
           <img className={Styles.image} src={nexusLogo} />
         </div>
 
         <div className={Styles.footerColumn}>
-          <h6>Connect With Us</h6>
+          <h5>Connect With Us</h5>
           <div className={Styles.footerRow}>
             <FaFacebookF className={Styles.footerIcon} />
-            <p>Facebook: @etechnexus</p>
+            <h6>Facebook: @etechnexus</h6>
           </div>
           <div className={Styles.footerRow}>
             <FaInstagram className={Styles.footerIcon} />
-            <p>Instagram: @etechnexus</p>
+            <h6>Instagram: @etechnexus</h6>
           </div>
           <div className={Styles.footerRow}>
             <FaTiktok className={Styles.footerIcon} />
-            <p>TikTok: @etechnexus</p>
+            <h6>TikTok: @etechnexus</h6>
           </div>
         </div>
 
         <div className={Styles.footerColumn}>
-          <h6>Contact Us</h6>
-          <p>Phone: (555) 123-4567 </p>
-          <p>Email: info@etechnexus.com  </p>
-          <p>Address: 1234 Main St, Anytown USA </p>
+          <h5>Contact Us</h5>
+          <h6>Phone: (555) 123-4567 </h6>
+          <h6>Email: info@etechnexus.com  </h6>
+          <h6>Address: 1234 Main St, Anytown USA </h6>
         </div>
       </section>
     </>

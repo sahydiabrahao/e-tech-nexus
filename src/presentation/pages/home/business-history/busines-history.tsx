@@ -9,13 +9,13 @@ const BusinesHistory: React.FC = () => {
 
         <img className={Styles.image} src={logoImage} />
 
-        <div className={Styles.title}>
-          <h4>
+        <div>
+          <h2>
             E-Tech Nexus is a market leader in the world of electronics, with decades of experience.
-          </h4>
-          <h6>
-          Our team of seasoned experts has a deep understanding of the ever-evolving tech landscape, and we leverage our expertise to provide our customers with the latest and greatest in tech products and services.
-          </h6>
+          </h2>
+          <h5>
+            Our team of seasoned experts has a deep understanding of the ever-evolving tech landscape, and we leverage our expertise to provide our customers with the latest and greatest in tech products and services.
+          </h5>
         </div>
 
       </section>
