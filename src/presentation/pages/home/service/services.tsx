@@ -32,7 +32,7 @@ const Services: React.FC = () => {
             </svg>
             <div className={Styles.cardTitle}>
               <h3>Sales of Electronics</h3>
-              <h5>E-Tech Nexus offers a diverse range of electronic products such as laptops, tablets, desktop computers, gaming consoles, smart home devices, audio equipment, and other gadgets.</h5>
+              <h6>E-Tech Nexus offers a diverse range of electronic products such as laptops, tablets, desktop computers, gaming consoles, smart home devices, audio equipment, and other gadgets.</h6>
             </div>
           </div>
 
@@ -53,7 +53,7 @@ const Services: React.FC = () => {
 
             <div className={Styles.cardTitle}>
               <h3>Tech Accessories</h3>
-              <h5>E-Tech Nexus may also sell a wide range of tech accessories, such as chargers, cables, cases, screen protectors, headphones, and other peripherals.</h5>
+              <h6>E-Tech Nexus may also sell a wide range of tech accessories, such as chargers, cables, cases, screen protectors, headphones, and other peripherals.</h6>
             </div>
           </div>
 
@@ -77,7 +77,7 @@ const Services: React.FC = () => {
 
             <div>
               <h3>Tech Consultation</h3>
-              <h5>E-Tech Nexus has a team of knowledgeable tech experts who can provide consultation services to help customers make informed decisions about their technology needs.</h5>
+              <h6>E-Tech Nexus has a team of knowledgeable tech experts who can provide consultation services to help customers make informed decisions about their technology needs.</h6>
             </div>
           </div>
         </div>

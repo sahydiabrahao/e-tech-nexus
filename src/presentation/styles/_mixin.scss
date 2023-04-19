@@ -1,0 +1,23 @@
+  @mixin padding {
+    @include responsive(desktop) {
+      padding: 0 30rem;
+    }
+
+    @include responsive(mini-desktop) {
+      padding: 0 26.25rem;
+    }
+
+    @include responsive(tablet-land) {
+      padding: 0 1.6rem;
+    }
+
+    @include responsive(tablet-port) {
+      padding: 0 1.6rem;
+    }
+
+    @include responsive(phone) {
+      padding: 0 0.8rem;
+    }
+
+    @content
+  }

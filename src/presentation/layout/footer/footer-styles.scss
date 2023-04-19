@@ -2,12 +2,14 @@
 
 
 .footer {
+  @include padding() {}
+
   position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 60px 360px;
+  padding: 6rem 36rem;
   height: 40vh;
   background-color: $white;
   color: $black;
@@ -16,6 +18,8 @@
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: auto;
   }
 
   .reference {

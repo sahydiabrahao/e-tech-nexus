@@ -1,24 +1,31 @@
 @import '@/presentation/styles/main.scss';
 
 .hero {
+  @include padding() {}
+
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0px 360px;
-  height: 90vh;
+  height: 100vh;
+  width: 100vw;
+  padding: 0 36rem;
   background-color: $white;
   color: $black;
+  gap: 16px;
 
   .waveBottom {
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 100%;
+    height: auto;
   }
 
 
   .title {
     animation: slide-in-left 1s forwards ease-out;
+    max-width: 52.9rem;
 
     h5,
     span {
@@ -26,8 +33,32 @@
     }
   }
 
+  .buttonFilled {
+    position: relative;
+    border-radius: 3px;
+    color: $white;
+    background-color: $primary;
+    border: 3px solid $primary;
+    padding: 0.4rem 1.6rem;
+    min-width: 12.8rem;
+    font-family: 'Poppins';
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0.8rem 3.2rem 0 0;
+  }
+
+  .buttonFilledDark {
+    @extend .buttonFilled;
+    background-color: $black;
+    border-color: $black;
+  }
+
   .image {
     animation: slide-in-right 1s forwards ease-out;
+    max-width: 59.2em;
+    width: 50%;
+    height: auto;
 
   }
 

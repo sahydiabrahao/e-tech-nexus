@@ -2,14 +2,16 @@
 
 
 .services {
+  @include padding() {}
+
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0px 360px;
+  padding: 0 36rem;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   background-color: $white;
   color: $black;
 
@@ -17,6 +19,8 @@
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: auto;
   }
 
   .title {
@@ -39,7 +43,13 @@
       width: 300px;
       height: 288px;
 
-      h5 {
+      svg {
+        width: 100%;
+        max-width: 10em;
+        height: auto;
+      }
+
+      h6 {
         font-weight: 300;
         text-align: justify;
       }

@@ -2,15 +2,23 @@
 
 
 .businesHistory {
+  @include padding() {}
+
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 360px;
+  padding: 0 36rem;
   height: 70vh;
   background-color: $black;
   color: $white;
   gap: 32px;
+
+  .image {
+    max-width: 59.2em;
+    width: 50%;
+    height: auto;
+  }
 
   h5 {
     margin-top: 8px;
