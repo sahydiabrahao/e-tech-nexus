@@ -18,6 +18,29 @@
     left: 0;
   }
 
+  .reference {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    h6 {
+      font-weight: 300;
+    }
+
+    span {
+      font-weight: 400;
+    }
+
+    a {
+      all: unset;
+      margin-left: 8px;
+      color: $black;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+
   .footerColumn {
     width: 300px;
     height: 100px;

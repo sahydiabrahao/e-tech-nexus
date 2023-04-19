@@ -19,7 +19,6 @@ const Hero: React.FC = () => {
           </h5>
         </div>
         <img className={Styles.image} src={heroImage} />
-
       </section>
     </>
   )
