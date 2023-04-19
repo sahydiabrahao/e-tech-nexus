@@ -1,6 +1,6 @@
-import techAccessoriesImage from '@/presentation/assets/tech-accessories-image.png'
-import techConsultationImage from '@/presentation/assets/tech-consultation-image.png'
-import salesOfEletronicsImage from '@/presentation/assets/sales-of-eletronics-image.png'
+import techAccessoriesImage from '@/presentation/assets/tech-accessories.png'
+import techConsultationImage from '@/presentation/assets/tech-consultation.png'
+import salesOfEletronicsImage from '@/presentation/assets/sales-of-eletronics.png'
 import Styles from './benefits-styles.scss'
 import React from 'react'
 

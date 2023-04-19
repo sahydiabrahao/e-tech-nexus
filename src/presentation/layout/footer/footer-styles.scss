@@ -1,0 +1,52 @@
+@import '@/presentation/styles/main.scss';
+
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 360px;
+  height: 40vh;
+  background-color: $white;
+  color: $black;
+
+  .waveTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .footerColumn {
+    width: 300px;
+    height: 100px;
+
+    h6 {
+
+      margin-bottom: 8px;
+    }
+
+    .image {
+      width: 50px;
+      height: auto;
+    }
+
+    .footerRow {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .footerIcon {
+      width: 30px;
+      height: auto;
+      padding: 3px;
+      color: $white;
+      background-color: $primary;
+      border-radius: 50%;
+    }
+  }
+
+}
