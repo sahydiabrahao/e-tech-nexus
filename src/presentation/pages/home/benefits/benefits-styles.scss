@@ -21,6 +21,7 @@
   }
 
   .benefitsSection {
+    visibility: hidden;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,22 +32,37 @@
   h5 {
     font-weight: 300;
   }
-}
 
-.image {
-  animation: floating 3s both infinite ease-in-out alternate;
-}
-
-@keyframes floating {
-  0% {
-    transform: translateY(0px);
+  .showRight {
+    @extend .benefitsSection;
+    visibility: visible;
+    animation: slide-in-right 1s forwards ease-out;
   }
 
+  .showLeft {
+    @extend .benefitsSection;
+    visibility: visible;
+    animation: slide-in-left 1s forwards ease-out;
+  }
+}
+
+
+@keyframes slide-in-right {
   0% {
-    transform: translateY(20px);
+    transform: translateX(100%);
   }
 
   100% {
-    transform: translateY(0px);
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
   }
 }
