@@ -1,11 +1,11 @@
 import logoImage from '@/presentation/assets/e-tech-nexus-image.png'
-import Styles from './busines-history-styles.scss'
+import Styles from './about-styles.scss'
 import React from 'react'
 
-const BusinesHistory: React.FC = () => {
+const About: React.FC = () => {
   return (
     <>
-      <section className={Styles.businesHistory}>
+      <section id='about' className={Styles.businesHistory}>
 
         <img className={Styles.image} src={logoImage} />
 
@@ -23,4 +23,4 @@ const BusinesHistory: React.FC = () => {
   )
 }
 
-export default BusinesHistory
+export default About

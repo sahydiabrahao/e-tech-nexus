@@ -8,11 +8,11 @@ const Navigation: React.FC = () => {
       <div className={Styles.navigation}>
         <img className={Styles.image} src={nexusLogo} />
         <div className={Styles.menu}>
-          <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">About</a>
-          <a href="#">Benefits</a>
-          <a href="#">Shop</a>
+          <a href="#hero">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#benefits">Benefits</a>
+          <a href="#shop">Shop</a>
         </div>
         <button>Sign In</button>
       </div>

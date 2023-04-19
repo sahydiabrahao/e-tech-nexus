@@ -25,7 +25,7 @@ const Benefits: React.FC = () => {
 
   return (
     <>
-      <section className={Styles.benefits}>
+      <section id='benefits' className={Styles.benefits}>
         <div className={Styles.title}>
           <h1>
           Experience the Benefits of <br></br><span> Innovation!</span>
