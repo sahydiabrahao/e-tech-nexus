@@ -4,6 +4,15 @@
 .footer {
   @include padding() {}
 
+  $height-phone: auto;
+  $height-tablet-port : 30vh;
+  $height-tablet-land: 35vh;
+  $height-mini-desktop: 40vh;
+  $height-desktop: 50vh;
+  $height-big-desktop: 50vh;
+
+  @include responsiveHeight($height-phone, $height-tablet-port, $height-tablet-land, $height-mini-desktop, $height-desktop, $height-big-desktop);
+
   @include responsive(phone) {
     flex-direction: column;
     gap: 1.6rem;

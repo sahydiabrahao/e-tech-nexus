@@ -4,7 +4,14 @@
 .outdoor {
   @include padding() {}
 
+  $height-phone: auto;
+  $height-tablet-port : 30vh;
+  $height-tablet-land: 30vh;
+  $height-mini-desktop: 30vh;
+  $height-desktop: 30vh;
+  $height-big-desktop: 30vh;
 
+  @include responsiveHeight($height-phone, $height-tablet-port, $height-tablet-land, $height-mini-desktop, $height-desktop, $height-big-desktop);
 
   position: relative;
   display: flex;

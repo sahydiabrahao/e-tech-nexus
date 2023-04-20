@@ -3,11 +3,21 @@
 .hero {
   @include padding() {}
 
+  $height-phone: auto;
+  $height-tablet-port : 80vh;
+  $height-tablet-land: 90vh;
+  $height-mini-desktop: 90vh;
+  $height-desktop: 95vh;
+  $height-big-desktop: 100vh;
+
+  @include responsiveHeight($height-phone, $height-tablet-port, $height-tablet-land, $height-mini-desktop, $height-desktop, $height-big-desktop);
+
   @include responsive(phone) {
     flex-direction: column;
-    height: auto;
     padding-top: 8rem;
   }
+
+
 
   position: relative;
   display: flex;
@@ -20,6 +30,7 @@
   color: $black;
   gap: 16px;
 
+
   .waveBottom {
     position: absolute;
     bottom: 0;
@@ -27,6 +38,8 @@
     width: 100%;
     height: auto;
   }
+
+
 
 
   .title {

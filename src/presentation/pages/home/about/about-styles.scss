@@ -4,12 +4,20 @@
 .businesHistory {
   @include padding() {}
 
+  $height-phone: auto;
+  $height-tablet-port : 60vh;
+  $height-tablet-land: 70vh;
+  $height-mini-desktop: 70vh;
+  $height-desktop: 70vh;
+  $height-big-desktop: 100vh;
+
+  @include responsiveHeight($height-phone, $height-tablet-port, $height-tablet-land, $height-mini-desktop, $height-desktop, $height-big-desktop);
+
   @include responsive(phone) {
     flex-direction: column;
     text-align: center;
     justify-content: center;
     width: 100vw;
-    height: auto;
 
   }
 

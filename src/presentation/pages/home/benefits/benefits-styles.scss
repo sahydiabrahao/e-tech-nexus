@@ -4,6 +4,15 @@
 .benefits {
   @include padding() {}
 
+  $height-phone: auto;
+  $height-tablet-port : auto;
+  $height-tablet-land: auto;
+  $height-mini-desktop: auto;
+  $height-desktop: auto;
+  $height-big-desktop: auto;
+
+  @include responsiveHeight($height-phone, $height-tablet-port, $height-tablet-land, $height-mini-desktop, $height-desktop, $height-big-desktop);
+
   position: relative;
   display: flex;
   flex-direction: column;

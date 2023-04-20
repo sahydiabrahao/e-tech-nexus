@@ -4,6 +4,15 @@
 .shop {
   @include padding() {}
 
+  $height-phone: auto;
+  $height-tablet-port : 70vh;
+  $height-tablet-land: 80vh;
+  $height-mini-desktop: 80vh;
+  $height-desktop: 90vh;
+  $height-big-desktop: 100vh;
+
+  @include responsiveHeight($height-phone, $height-tablet-port, $height-tablet-land, $height-mini-desktop, $height-desktop, $height-big-desktop);
+
   @include responsive(phone) {
     flex-direction: column;
     height: auto;
