@@ -44,7 +44,8 @@ const Benefits: React.FC = () => {
           </div>
         </div>
 
-        <div className={scrollConsultation ? Styles.showLeft : Styles.benefitsSection}>
+        <div id='#techConsultation' className={scrollConsultation ? Styles.showLeft : Styles.benefitsSection}>
+        <img className={Styles.image} src={techConsultationImage} />
           <div >
             <h1>
               Tech<span> Consultation</span>
@@ -53,7 +54,6 @@ const Benefits: React.FC = () => {
               We also provide expert tech consultation services to help you make the most informed decisions for your specific needs. Our team of tech-savvy professionals are ready to assist you.
             </h5>
           </div>
-          <img className={Styles.image} src={techConsultationImage} />
         </div>
 
         <div className={scrollSales ? Styles.showRight : Styles.benefitsSection}>

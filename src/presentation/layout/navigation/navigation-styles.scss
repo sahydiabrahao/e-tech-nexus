@@ -1,9 +1,7 @@
 @import '@/presentation/styles/main.scss';
 
 .navigation {
-  @include responsive(desktop) {
-    padding: 0 18rem;
-  }
+  @include padding() {}
 
   position: absolute;
   position: fixed;
@@ -22,35 +20,57 @@
     height: auto;
   }
 
-  a {
-    @include responsive(desktop) {
-      margin: 0 1.2rem
+  .menu {
+    @include responsive(phone) {
+      display: none;
     }
 
-    all: unset;
-    position: relative;
-    font-size: 1.4rem;
-    margin: 0 1.6rem;
-    cursor: pointer;
-    color: $black;
+    a {
+      all: unset;
+      position: relative;
+      font-size: 1.4rem;
+      margin: 0 1.6rem;
+      cursor: pointer;
+      color: $black;
 
 
-    &:before {
-      content: '';
-      position: absolute;
-      left: -20%;
-      top: 120%;
-      background-color: $primary;
-      width: 0;
-      height: 3px;
-      transition: all 0.3s;
+      &:before {
+        content: '';
+        position: absolute;
+        left: -20%;
+        top: 120%;
+        background-color: $primary;
+        width: 0;
+        height: 3px;
+        transition: all 0.3s;
+      }
+
+      &:hover:before {
+        width: 140%;
+      }
+
+      &:hover {
+        color: $primary;
+      }
     }
+  }
 
-    &:hover:before {
-      width: 140%;
+  .signin {
+    @include responsive(phone) {
+      display: none;
     }
+  }
 
-    &:hover {
+  .menuPhone {
+    display: none;
+
+    @include responsive(phone) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 4rem;
+      height: auto;
       color: $primary;
     }
   }

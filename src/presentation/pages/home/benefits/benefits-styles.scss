@@ -23,7 +23,17 @@
     color: $primary;
   }
 
+
+
   .benefitsSection {
+    @include responsive(phone) {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      width: 100vw;
+      height: auto;
+    }
+
     visibility: hidden;
     display: flex;
     flex-direction: row;
@@ -31,11 +41,29 @@
     justify-content: space-between;
     gap: 32px;
 
+    &:nth-last-child(2) {
+      flex-direction: row-reverse;
+
+      @include responsive(phone) {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+      }
+
+    }
+
+
     .image {
       max-width: 592px;
       width: 50%;
       height: auto;
     }
+  }
+
+  techConsultation {
+    background-color: yellow;
   }
 
   h5 {

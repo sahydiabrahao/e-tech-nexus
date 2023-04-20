@@ -4,6 +4,11 @@
 .services {
   @include padding() {}
 
+  @include responsive(phone) {
+    flex-direction: column;
+    height: auto;
+  }
+
   position: relative;
   display: flex;
   align-items: center;
@@ -33,6 +38,12 @@
   }
 
   .cards {
+    @include responsive(phone) {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,6 +51,16 @@
     text-align: center;
 
     .card {
+      @include responsive(phone) {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+
+      }
+
+      padding: 0.8rem;
       width: 300px;
       height: 288px;
 

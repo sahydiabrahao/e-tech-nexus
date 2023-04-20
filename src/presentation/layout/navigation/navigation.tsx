@@ -1,6 +1,7 @@
 import nexusLogo from '@/presentation/assets/e-tech-nexus-logo.png'
 import Styles from './navigation-styles.scss'
 import React from 'react'
+import { FaBars } from 'react-icons/fa'
 
 const Navigation: React.FC = () => {
   return (
@@ -14,7 +15,9 @@ const Navigation: React.FC = () => {
           <a href="#benefits">Benefits</a>
           <a href="#shop">Shop</a>
         </div>
-        <button>Sign In</button>
+        <button className={Styles.signin}>Sign In</button>
+        <FaBars className={Styles.menuPhone}/>
+
       </div>
     </>
   )

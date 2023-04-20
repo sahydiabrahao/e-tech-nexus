@@ -4,6 +4,15 @@
 .businesHistory {
   @include padding() {}
 
+  @include responsive(phone) {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+
+  }
+
   position: relative;
   display: flex;
   align-items: center;
