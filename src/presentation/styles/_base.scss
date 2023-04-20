@@ -13,7 +13,7 @@ html {
   /*1rem = 10px*/
   @include responsive(desktop) {
     // width < 1600?
-    font-size: 66.7%; //1rem = 12, 12/16
+    font-size: 64.7%; //1rem = 12, 12/16
   }
 
   @include responsive(mini-desktop) {

@@ -4,14 +4,19 @@
 .shop {
   @include padding() {}
 
+  @include responsive(phone) {
+    flex-direction: column;
+    height: auto;
+  }
+
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: top;
   flex-direction: column;
-  padding: 0 36rem;
   height: 100vh;
+  padding: 0 36rem;
   background-color: $white;
   color: $black;
   gap: 3.2rem;
@@ -30,28 +35,45 @@
   }
 
   .cards {
+    @include responsive(phone) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+    }
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center;
     text-align: center;
-
+    padding: 0.8rem;
+    width: 100%;
+    gap: 1.6rem;
 
     .card {
-      width: 300px;
+      @include responsive(phone) {
+        width: 35em;
+      }
+
+      width: 25rem;
       padding: 8px;
       border-top: 3px solid $primary;
       border-radius: 4px;
-      box-shadow: 0 3px 6px #00000029, 0 3px 6px #0000003b;
+      box-shadow: 0 3px 6px #00000029,
+      0 3px 6px #0000003b;
 
       .image {
         width: 100%;
       }
 
       h6 {
+        @include responsive(phone) {
+          display: none;
+        }
+
         font-weight: 400;
         text-align: left;
-        margin: 0.8rem 0;
+        margin: 0.8rem 0.8rem;
       }
 
       .cardMenu {
@@ -61,6 +83,10 @@
         align-items: center;
 
         .cardIcon {
+          @include responsive(phone) {
+            display: none;
+          }
+
           width: 30px;
           height: auto;
           color: $primary;
@@ -71,13 +97,18 @@
         }
 
         button {
+          @include responsive(phone) {
+            width: 100%;
+            font-size: 2rem;
+          }
+
           color: $white;
           background-color: $primary;
           border: 3px solid $primary;
           border-radius: 4px;
           padding: 0.2rem 1.6rem;
           font-family: 'Poppins';
-          font-size: 1rem;
+          font-size: 1.4rem;
           font-weight: 600;
           cursor: pointer;
 

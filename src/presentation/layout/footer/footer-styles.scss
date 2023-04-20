@@ -4,12 +4,19 @@
 .footer {
   @include padding() {}
 
+  @include responsive(phone) {
+    flex-direction: column;
+    gap: 1.6rem;
+    height: auto;
+  }
+
   position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 6rem 36rem;
+  width: 100vw;
   height: 40vh;
   background-color: $white;
   color: $black;
@@ -46,6 +53,15 @@
   }
 
   .footerColumn {
+    @include responsive(phone) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: auto;
+    }
+
     width: 300px;
     height: 100px;
 
@@ -60,6 +76,15 @@
     }
 
     .footerRow {
+      @include responsive(phone) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+      }
+
       display: flex;
       align-items: center;
       gap: 8px;

@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     <>
       <section className={Styles.footer}>
         <div className={Styles.reference}>
-            <h6>The images used on this website were created by
+            <h6>Images created by
               <a href="https://www.freepik.com/author/stories">@storyset</a>
             </h6>.
         </div>

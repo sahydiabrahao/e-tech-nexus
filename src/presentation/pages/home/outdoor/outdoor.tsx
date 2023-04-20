@@ -8,9 +8,9 @@ const Outdoor: React.FC = () => {
 
         <div className={Styles.title}>
           <h1>
-          Experience the E-Tech Nexus<br></br><span> Consultation Advantage</span>
+          Experience the E-Tech Nexus<span> Consultation Advantage</span>
           </h1>
-          <button>Lets Start Today</button>
+          <button>Start Now</button>
         </div>
 
       </section>
