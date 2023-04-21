@@ -3,8 +3,6 @@
 
 <div>
   <a href="https://e-tech-nexus.web.app/">
-    
-    
      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="30" />
   </a>
 </div>
