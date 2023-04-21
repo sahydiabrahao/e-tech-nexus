@@ -2,8 +2,9 @@
 
 
 <div>
-  <a href="https://e-tech-nexus.web.app/">
+  <a href="https://e-tech-nexus.web.app/" width="60" background="blue" >
      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="30" />
+      <h6> Web site<h6/>
   </a>
 </div>
 
