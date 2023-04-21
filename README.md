@@ -16,7 +16,7 @@ Smooth scrolling and animations for a polished user experience.
 Contact form to capture leads and inquiries.
 Social media integration to increase your online reach.
 
-Technologies Used
+###Technologies Used
 E-TECH NEXUS is built using a variety of technologies, including:
 
 HTML
@@ -25,11 +25,11 @@ TypeScript
 ReactJS
 Firebase
 
-Getting Started
+###Getting Started
 To get started with E-TECH NEXUS, simply download the code and customize it to fit your needs. You can change the text, images, colors, and layout to match your branding and messaging. You can also add additional pages and features as needed.
 
-Contributing
+###Contributing
 We welcome contributions from anyone interested in improving E-TECH NEXUS. If you'd like to contribute, please fork the repository on GitHub and submit a pull request with your changes.
 
-Contact Us
+###Contact Us
 If you have any questions, feedback, or issues with E-TECH NEXUS, please feel free to contact us at linkedin.com/in/sahydi-abrahao/.
