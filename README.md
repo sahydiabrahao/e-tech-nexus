@@ -20,17 +20,16 @@ Social media integration to increase your online reach.
 E-TECH NEXUS is built using a variety of technologies, including:
 <div>
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30" /> 
-	
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="30" /> 
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30" /> 
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" />
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="30" />
 </div>
-- HTML 
-- SCSS 
-- TypeScript 
-- React 
-- Firebase 
+- HTML
+- SCSS
+- TypeScript
+- React
+- Firebase
 
 ### Getting Started
 To get started with E-TECH NEXUS, simply download the code and customize it to fit your needs. You can change the text, images, colors, and layout to match your branding and messaging. You can also add additional pages and features as needed.
