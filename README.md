@@ -1,5 +1,5 @@
-
 # <a href="https://e-tech-nexus.web.app/">E-Tech Nexus</a>
+![Group 1](https://user-images.githubusercontent.com/114512729/233722652-5dd0e5bd-dd93-40fa-9f05-495927c8572b.png)
 
 E-Tech Nexus is a modern and elegant landing page designed to showcase your product or service. With its clean and minimalist design, E-Tech Nexus will help you attract new customers and create a strong online presence.
 	
