@@ -28,7 +28,7 @@ E-Tech Nexus design was created using Figma, a popular design tool for creating 
 To get started with E-Tech Nexus, simply download the code and customize it to fit your needs. You can change the text, images, colors, and layout to match your branding and messaging. You can also add additional pages and features as needed.
 
 ### Contributing
-We welcome contributions from anyone interested in improvingE-Tech Nexus. If you'd like to contribute, please fork the repository on GitHub and submit a pull request with your changes.
+We welcome contributions from anyone interested in improving E-Tech Nexus. If you'd like to contribute, please fork the repository on GitHub and submit a pull request with your changes.
 
 ### Contact Us
 If you have any questions, feedback, or issues with E-Tech Nexus, please feel free to contact us at linkedin.com/in/sahydi-abrahao/.
