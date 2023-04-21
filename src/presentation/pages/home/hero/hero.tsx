@@ -18,7 +18,12 @@ const Hero: React.FC = () => {
             With our wide range of electronic products and expert tech consultation, we help you stay at the forefront of innovation.
           </h5>
           <div>
-            <button className={Styles.buttonFilled} >PRODUCTS</button>   <button className={Styles.buttonFilledDark}>SERVICES</button>
+            <a href="#shop">
+              <button className={Styles.buttonFilled} >PRODUCTS</button>
+            </a>
+            <a href="#services">
+              <button className={Styles.buttonFilledDark}>SERVICES</button>
+            </a>
           </div>
         </div>
         <img className={Styles.image} src={heroImage} />

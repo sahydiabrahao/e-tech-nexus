@@ -8,10 +8,12 @@ const Navigation: React.FC = () => {
 
   const onMenuPhone = (): any => {
     setShowMenuPhone(true)
+    document.body.style.position = 'fixed'
   }
 
   const onCloseMenuPhone = (): any => {
     setShowMenuPhone(false)
+    document.body.style.position = ''
   }
 
   const MenuPhone = (): any => {
