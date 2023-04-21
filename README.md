@@ -19,7 +19,8 @@ Social media integration to increase your online reach.
 ### Technologies Used
 E-TECH NEXUS is built using a variety of technologies, including:
 
-HTML
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30" />
+          
 SCSS
 TypeScript
 ReactJS
