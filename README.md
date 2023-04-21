@@ -1,5 +1,5 @@
 <div align="center">
-  [!\[status up\](https://napkin-examples.npkn.net/site-status-badge/)]
+  !\[status up\](https://napkin-examples.npkn.net/site-status-badge/)
 
   [![crates.io][crates.io-badge]][crates.io]
   
