@@ -1,30 +1,15 @@
 # E-Tech Nexus
 <div>
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="30" />		
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30" />  
-	
-</div>
-
-
-
-<div>
-
-  
-  
-  <div>
-      E-TECH NEXUS is a modern and elegant landing page designed to showcase your product or service. With its clean and minimalist design, E-TECH NEXUS will help you       attract new customers and create a strong online presence.
-  </div>
-
   <a href="https://e-tech-nexus.web.app/">
      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="30" /> Web site
   </a>
+	
+	E-TECH NEXUS is a modern and elegant landing page designed to showcase your product or service. With its clean and minimalist design, E-TECH NEXUS will help you attract new customers and create a strong online presence.
+	
+	### Features
 </div>
 
 
-E-TECH NEXUS 
-E-TECH NEXUS is a modern and elegant landing page designed to showcase your product or service. With its clean and minimalist design, E-TECH NEXUS will help you attract new customers and create a strong online presence.
 
 Features
 Responsive design that looks great on any device
