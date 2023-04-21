@@ -1,6 +1,6 @@
 [!\[status up\](https://napkin-examples.npkn.net/site-status-badge/)]
 
-
+[![crates.io][crates.io-badge]][crates.io]
 E-TECH NEXUS https://e-tech-nexus.web.app/
 E-TECH NEXUS is a modern and elegant landing page designed to showcase your product or service. With its clean and minimalist design, E-TECH NEXUS will help you attract new customers and create a strong online presence.
 
