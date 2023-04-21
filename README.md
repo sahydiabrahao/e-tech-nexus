@@ -9,15 +9,12 @@ E-TECH NEXUS is a modern and elegant landing page designed to showcase your prod
 	
 ### Features
 
-
-
-Features
-Responsive design that looks great on any device
-Clean and minimalist layout that highlights your product or service
-High-quality images and icons to add visual interest
-Smooth scrolling and animations for a polished user experience
-Contact form to capture leads and inquiries
-Social media integration to increase your online reach
+Responsive design that looks great on any device.<br />
+Clean and minimalist layout that highlights your product or service.<br />
+High-quality images and icons to add visual interest.
+Smooth scrolling and animations for a polished user experience.
+Contact form to capture leads and inquiries.
+Social media integration to increase your online reach.
 
 Technologies Used
 E-TECH NEXUS is built using a variety of technologies, including:
