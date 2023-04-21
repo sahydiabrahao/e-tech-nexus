@@ -1,7 +1,11 @@
 
 
 
-<div width="60" background="blue">
+<div>
+  
+  # E-TECH NEXUS
+  
+  
   <a href="https://e-tech-nexus.web.app/">
      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="30" /> Web site
   </a>
