@@ -27,8 +27,6 @@ E-TECH NEXUS is built using a variety of technologies, including:
 </div>
 
 - HTML
-
-- HTML
 - SCSS
 - TypeScript
 - React
