@@ -1,4 +1,4 @@
-!\[status up\](https://napkin-examples.npkn.net/site-status-badge/)
+[!\[status up\](https://napkin-examples.npkn.net/site-status-badge/)]
 
 
 E-TECH NEXUS https://e-tech-nexus.web.app/
