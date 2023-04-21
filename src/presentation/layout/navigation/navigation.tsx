@@ -1,9 +1,32 @@
 import nexusLogo from '@/presentation/assets/e-tech-nexus-logo.png'
 import Styles from './navigation-styles.scss'
-import React from 'react'
-import { FaBars } from 'react-icons/fa'
+import React, { useState } from 'react'
+import { FaBars, FaPlus } from 'react-icons/fa'
 
 const Navigation: React.FC = () => {
+  const [showMenuPhone, setShowMenuPhone] = useState(false)
+
+  const onMenuPhone = (): any => {
+    setShowMenuPhone(true)
+  }
+
+  const onCloseMenuPhone = (): any => {
+    setShowMenuPhone(false)
+  }
+
+  const MenuPhone = (): any => {
+    return (
+    <div className={Styles.menuPhone} >
+    <a href="#hero" onClick={onCloseMenuPhone}>Home</a>
+    <a href="#services" onClick={onCloseMenuPhone}>Services</a>
+    <a href="#about" onClick={onCloseMenuPhone}>About</a>
+    <a href="#benefits" onClick={onCloseMenuPhone}>Benefits</a>
+    <a href="#shop" onClick={onCloseMenuPhone}>Shop</a>
+
+    <FaPlus className={Styles.closeIcon} onClick={onCloseMenuPhone} />
+  </div>)
+  }
+
   return (
     <>
       <div className={Styles.navigation}>
@@ -16,8 +39,9 @@ const Navigation: React.FC = () => {
           <a href="#shop">Shop</a>
         </div>
         <button className={Styles.signin}>Sign In</button>
-        <FaBars className={Styles.menuPhone}/>
+        <FaBars className={Styles.menuPhoneIcon} onClick={onMenuPhone} />
 
+        { showMenuPhone ? <MenuPhone /> : null }
       </div>
     </>
   )

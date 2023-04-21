@@ -1,4 +1,5 @@
   @mixin padding {
+
     @include responsive(desktop) {
       padding: 0 30rem;
     }
@@ -16,7 +17,7 @@
     }
 
     @include responsive(phone) {
-      padding: 4rem 0.8rem;
+      padding: 5rem 0.8rem;
     }
 
     @content

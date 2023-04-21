@@ -43,6 +43,10 @@
     height: auto;
   }
 
+  .title {
+    text-align: center;
+  }
+
   .cards {
     @include responsive(phone) {
       flex-direction: column;

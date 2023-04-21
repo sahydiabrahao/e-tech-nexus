@@ -13,12 +13,29 @@
 
   @include responsiveHeight($height-phone, $height-tablet-port, $height-tablet-land, $height-mini-desktop, $height-desktop, $height-big-desktop);
 
+
+  @include responsive(desktop) {
+    padding-top: 7.5rem;
+  }
+
+  @include responsive(tablet-land) {
+    padding-top: 6rem;
+  }
+
+  @include responsive(tablet-port) {
+    padding-top: 7rem;
+  }
+
+  @include responsive(phone) {
+    padding-top: 7rem;
+  }
+
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 36rem;
+  padding: 50px 36rem;
   background-color: $white;
   color: $black;
   width: 100%;
