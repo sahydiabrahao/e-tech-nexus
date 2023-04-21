@@ -14,9 +14,9 @@ const Benefits: React.FC = () => {
   useEffect(() => {
     const onScroll = (e): any => {
       setScrollTop(e.target.documentElement.scrollTop)
-      if (e.target.documentElement.scrollTop > 1900) { setScrollAccessories(true) }
-      if (e.target.documentElement.scrollTop > 2400) { setScrollConsultation(true) }
-      if (e.target.documentElement.scrollTop > 3000) { setScrollSales(true) }
+      if ((e.target.documentElement.scrollTop) / (e.target.documentElement.scrollHeight) > 0.34) { setScrollAccessories(true) }
+      if ((e.target.documentElement.scrollTop) / (e.target.documentElement.scrollHeight) > 0.39) { setScrollConsultation(true) }
+      if ((e.target.documentElement.scrollTop) / (e.target.documentElement.scrollHeight) > 0.47) { setScrollSales(true) }
     }
     window.addEventListener('scroll', onScroll)
 

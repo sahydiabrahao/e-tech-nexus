@@ -60,6 +60,10 @@
       height: auto;
     }
 
+    @include responsive(tablet-land) {
+      visibility: visible;
+    }
+
     visibility: hidden;
     display: flex;
     flex-direction: row;
@@ -97,6 +101,10 @@
   }
 
   .showRight {
+    @include responsive(tablet-land) {
+      animation: none;
+    }
+
     @extend .benefitsSection;
     visibility: visible;
     animation: slide-in-right 1s forwards ease-out;
@@ -105,6 +113,10 @@
   }
 
   .showLeft {
+    @include responsive(tablet-land) {
+      animation: none;
+    }
+
     @extend .benefitsSection;
     visibility: visible;
     animation: slide-in-left 1s forwards ease-out;
