@@ -2,9 +2,15 @@
 
 
 <div>
+  <div align="center">
+    # E-TECH NEXUS
+  </div>
   
-  # E-TECH NEXUS
-  
+  <div>
+      E-TECH NEXUS is a modern and elegant landing page designed to showcase your product or service. With its clean and minimalist design, E-TECH NEXUS will help you       attract new customers and create a strong online presence.
+  </div>
+
+
   
   <a href="https://e-tech-nexus.web.app/">
      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="30" /> Web site
