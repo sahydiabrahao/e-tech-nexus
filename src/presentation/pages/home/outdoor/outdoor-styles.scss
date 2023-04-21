@@ -43,6 +43,7 @@
     button {
       @include responsive(phone) {
         width: 100%;
+        font-size: 2rem;
       }
 
 
