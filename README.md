@@ -1,4 +1,18 @@
-    # E-TECH NEXUS
+### Hi there 👋
+
+- I'm Sahydi Abrahão
+
+
+### Best Technologies
+<div>
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="30" />		
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30" />  
+	
+</div>
+
+
 
 <div>
 
