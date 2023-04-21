@@ -25,6 +25,9 @@ E-TECH NEXUS is built using a variety of technologies, including:
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" />
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="30" />
 </div>
+
+- HTML
+
 - HTML
 - SCSS
 - TypeScript
