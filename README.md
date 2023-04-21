@@ -1,5 +1,5 @@
 
-# <a href="https://e-tech-nexus.web.app/">[E-Tech Nexus]</a>
+# <a href="https://e-tech-nexus.web.app/">E-Tech Nexus</a>
 
 E-Tech Nexus is a modern and elegant landing page designed to showcase your product or service. With its clean and minimalist design, E-Tech Nexus will help you attract new customers and create a strong online presence.
 	
@@ -13,8 +13,9 @@ E-Tech Nexus is a modern and elegant landing page designed to showcase your prod
 
 ### Design
 E-Tech Nexus design was created using Figma, a popular design tool for creating digital products. The design features a modern and minimalist aesthetic, with a focus on clean lines and white space.
-- <a href="https://www.figma.com/file/vs3P55GsKOJCyd241ULpbC/e-tech-nexus?node-id=601-243">[E-Tech Nexus-Figma]</a>
-
+- <a href="https://www.figma.com/file/vs3P55GsKOJCyd241ULpbC/e-tech-nexus?node-id=601-243">E-Tech Nexus-Figma</a>
+- Press "Ctrl + Scroll" to ZoomIn and ZoomOut.
+- Keep Press "Space" to move.
 ### Technologies Used
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="30"/>Figma
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30" />HTML
